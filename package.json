@@ -1,0 +1,21 @@
+{
+  "name": "email-automation-tool",
+  "version": "1.0.0",
+  "description": "Tool to parse and check the emails in a Google and Outlook email ID, and respond to the e-mails based on the context using AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@microsoft/microsoft-graph-types": "^2.40.0",
+    "axios": "^1.7.2",
+    "bullmq": "^5.8.2",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.0",
+    "redis": "^4.6.14"
+  }
+}
